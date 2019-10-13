@@ -1,13 +1,51 @@
 {
   "defaultAccounts": [
     { "email": "admin@foo.com", "password": "changeme", "role": "admin" },
-    { "email": "john@foo.com", "password": "changeme" }
+    { "email": "b@foo.com", "password": "changeme", "role": "back2bikes" },
+    {
+      "email": "ba@foo.com",
+      "password": "changeme",
+      "role": "back2bikes, admin"
+    },
+    {
+      "email": "bs@foo.com",
+      "password": "changeme",
+      "role": "back2bikes, superAdmin"
+    },
+    { "email": "s@foo.com", "password": "changeme", "role": "Sandridge" },
+    { "email": "b4h@foo.com", "password": "changeme", "role": "b4h" },
+    { "email": "b4ha@foo.com", "password": "changeme", "role": "b4h, admin" },
+    {
+      "email": "songyunfeng.donnie@gmail.com",
+      "password": "syf1357900",
+      "role": "admin"
+    }
   ],
 
   "defaultData": [
-    { "name": "Basket", "quantity": 3, "owner": "john@foo.com", "condition": "excellent" },
-    { "name": "Bicycle", "quantity": 2, "owner": "john@foo.com", "condition": "poor" },
-    { "name": "Banana", "quantity": 2, "owner": "admin@foo.com", "condition": "good" },
-    { "name": "Boogie Board", "quantity": 2, "owner": "admin@foo.com", "condition": "excellent" }
+    {
+      "name": "Basket",
+      "quantity": 3,
+      "owner": "john@foo.com",
+      "condition": "excellent"
+    },
+    {
+      "name": "Bicycle",
+      "quantity": 2,
+      "owner": "john@foo.com",
+      "condition": "poor"
+    },
+    {
+      "name": "Banana",
+      "quantity": 2,
+      "owner": "admin@foo.com",
+      "condition": "good"
+    },
+    {
+      "name": "Boogie Board",
+      "quantity": 2,
+      "owner": "admin@foo.com",
+      "condition": "excellent"
+    }
   ]
 }
